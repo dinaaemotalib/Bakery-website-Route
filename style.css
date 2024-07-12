@@ -1,15 +1,14 @@
-.main{
+/* .main{
     background-image: url(images/drew-coffman-1872.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
-
-  
-}
+} */
 
 .logo{
-    /* background-color: black; */
-    margin: 20px 0 0 150px;
-    display: inline; 
+    background-color: black;
+    margin: 0 0 0 50px; 
+    /* display: inline;  */
+    float: left;
     
     
 } 
@@ -18,17 +17,25 @@
     width: 200px;
 }
 
+.links_main{
+    /* float: right; */
+    background-color: black;
+}
+
 .links{
 
-    /* background-color: black; */
-    display: inline;
-    margin: 20px 50px 0 10px;
-  
+     background-color: black; 
+    /* display: inline; */
+    margin: 20px 50px 0 10px; 
+    float: right;
+}
 
+.clear{
+    clear: both;
 }
 
 #home{
-    margin: 0 50 0 350px;
+    /* margin: 0 50 0 350px; */
 }
 
 
