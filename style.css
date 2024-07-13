@@ -1,46 +1,59 @@
-/* .main{
+ .main{
+    
     background-image: url(images/drew-coffman-1872.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
-} */
+} 
+
+/* .navbar{} */
 
 .logo{
-    background-color: black;
+    /* background-color: black; */
     margin: 0 0 0 50px; 
-    /* display: inline;  */
-    float: left;
-    
-    
+    float: left;  
 } 
  
 .logo img{
     width: 200px;
 }
 
-.links_main{
-    /* float: right; */
-    background-color: black;
-}
-
 .links{
-
-     background-color: black; 
-    /* display: inline; */
+    /* padding-top: 20px;  */
+     /* background-color: black;  */
     margin: 20px 50px 0 10px; 
     float: right;
 }
 
+/* #home{
+    
+    margin-top: 20px;
+    border-top: brown 6px solid;
+} */
+
 .clear{
     clear: both;
 }
-
-#home{
-    /* margin: 0 50 0 350px; */
-}
-
 
 .links a{
     color: white;
     text-decoration: none;
     font-size: large;
 } 
+
+.middle{
+    /* background-color: black; */
+    color: white;
+    width: 50%;
+    margin: 200px 0 200px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* .learnbrw{
+
+} */
+
+/* .contacttrs{
+
+} */
