@@ -1,15 +1,16 @@
- .main{
+ .home{
     
     background-image: url(images/drew-coffman-1872.jpg);
-    background-size:cover ;
+    background-size:100% 100%;
     background-repeat: no-repeat;
+    height: 100vh;
+  
 } 
 
-/* .navbar{} */
 
 .logo{
     /* background-color: black; */
-    margin: 0 0 0 50px; 
+    margin: 30px 0 0 80px; 
     float: left;  
 } 
  
@@ -20,15 +21,13 @@
 .links{
     /* padding-top: 20px;  */
      /* background-color: black;  */
-    margin: 20px 50px 0 10px; 
+    margin: 50px 30px 0 10px; 
     float: right;
 }
 
-/* #home{
-    
-    margin-top: 20px;
-    border-top: brown 6px solid;
-} */
+#contact{
+    margin-right: 100px;
+}
 
 .clear{
     clear: both;
@@ -38,22 +37,144 @@
     color: white;
     text-decoration: none;
     font-size: large;
+    font-family: "Alegreya", serif;
 } 
 
 .middle{
     /* background-color: black; */
     color: white;
-    width: 50%;
-    margin: 200px 0 200px 0;
+    width: 35%;
+    margin: 170px 0 170px 0;
     margin-left: auto;
     margin-right: auto;
+    /* margin: auto; */
     text-align: center;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
 }
 
-/* .learnbrw{
+.middle h3{
+    font-size: 20px;
+    font-weight: 100; 
+}
+.middle p{
+    font-size: 20px;
+    font-weight: 100; 
+}
 
-} */
 
-/* .contacttrs{
+.middle h1{
+    font-size: 34px;
+    font-weight: 100; 
+}
 
-} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.learnbrw{
+    background-color: #8e7754;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: transparent;
+    margin: 0 0 12px 12px;
+    padding: 15px 28px;
+}
+
+.contacttrs{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: white 3px solid;
+    margin: 0 0 12px 12px;
+    padding: 15px 28px;
+}
+
+.mouse{
+    background-color: transparent;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    border: white 5px solid;
+    border-radius: 20px;
+}
+
+.dot{
+    width: 0.5px;
+    height: 0.5px;
+    margin: auto;
+    background-color: white;
+    border: white 5px solid;
+    border-radius: 20px;
+
+}
+
+.whoweare{
+    background-color: white; 
+    /* display: inline-block; */
+    width: 80%; /*from the body*/
+    margin: auto; /*center this div*/
+    height: 100vh;
+    
+}
+
+.whoimg img{
+    width: 90%; /*90 from the whoimg*/
+}
+
+.whoimg{
+    width:50%; /*from whoweare*/
+    /* background-color: aqua; */
+    display: inline-block; /*to resize and hori*/
+    margin: 70px 0;
+
+    vertical-align: top;
+    
+}
+
+.text{
+    /* background-color: red; */
+    width: 40%; /*(50 took) left-> 50 (text took 40) left-> 10*/
+    display: inline-block;
+    margin: 70px 0 0 0; 
+    font-family:"Alegreya", serif ;
+    vertical-align: middle; /* Align vertically with image */
+    /* margin-left: 10px; */
+}
+
+.text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text p{
+    font-size: 17px;
+    color: #686868;
+}
+
+.icon img{
+    width: 50px;
+}
+
+.bullets{
+    width: 25%;
+    display: inline-block;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.list{
+    display: inline-block;
+    padding: 15px 0 0 0;
+}
